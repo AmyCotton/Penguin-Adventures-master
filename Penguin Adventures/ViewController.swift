@@ -101,6 +101,24 @@ extension ViewController: CLLocationManagerDelegate {
 		} else if region.identifier == "bournemouthPierFour" {
 		self.storyButtonFour.hidden = false
 		}
+        
+        if self.storyButtonOne.hidden == false {
+        
+            let refreshAlert = UIAlertController(title: "Congratulations!", message: "You have discovered all of the penguins!", preferredStyle: UIAlertControllerStyle.Alert)
+            
+            
+            refreshAlert.addAction(UIAlertAction(title: "Close", style: .Default, handler: { (action: UIAlertAction!) in
+                
+                refreshAlert .dismissViewControllerAnimated(true, completion: nil)
+                
+                
+            }))
+            presentViewController(refreshAlert, animated: true, completion: nil)
+        
+            
+        } else {
+        
+        }
 		
 		let refreshAlert = UIAlertController(title: "New Penguin Story Found!", message: "You have discovered a new penguin! To read the new story select the story button above.", preferredStyle: UIAlertControllerStyle.Alert)
         
@@ -112,7 +130,7 @@ extension ViewController: CLLocationManagerDelegate {
             
         }))
         
-       // presentViewController(refreshAlert, animated: true, completion: nil)
+       presentViewController(refreshAlert, animated: true, completion: nil)
     }
     
     
