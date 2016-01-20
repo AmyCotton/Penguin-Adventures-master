@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E1AB0EA01C4FD4E0009E4182 /* penguin.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AB0E9F1C4FD4E0009E4182 /* penguin.png */; };
+		E1AB0EA21C5005BD009E4182 /* homepage.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AB0EA11C5005BD009E4182 /* homepage.png */; };
 		E1CB60431C148CB400AE270F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CB60421C148CB400AE270F /* AppDelegate.swift */; };
 		E1CB60451C148CB400AE270F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CB60441C148CB400AE270F /* ViewController.swift */; };
 		E1CB60481C148CB400AE270F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CB60461C148CB400AE270F /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		E1AB0E9F1C4FD4E0009E4182 /* penguin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = penguin.png; path = Assets.xcassets/penguin.png; sourceTree = "<group>"; };
+		E1AB0EA11C5005BD009E4182 /* homepage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homepage.png; sourceTree = "<group>"; };
 		E1CB603F1C148CB400AE270F /* Penguin Adventures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Penguin Adventures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CB60421C148CB400AE270F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1CB60441C148CB400AE270F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				E1E41E181C28C415006B3883 /* FourthViewController.swift */,
 				E1CB60491C148CB400AE270F /* Assets.xcassets */,
 				E1AB0E9F1C4FD4E0009E4182 /* penguin.png */,
+				E1AB0EA11C5005BD009E4182 /* homepage.png */,
 				E1CB604B1C148CB400AE270F /* LaunchScreen.storyboard */,
 				E1CB604E1C148CB400AE270F /* Info.plist */,
 			);
@@ -248,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1CB604D1C148CB400AE270F /* LaunchScreen.storyboard in Resources */,
+				E1AB0EA21C5005BD009E4182 /* homepage.png in Resources */,
 				E1CB604A1C148CB400AE270F /* Assets.xcassets in Resources */,
 				E1E41E1B1C28DA13006B3883 /* locations.gpx in Resources */,
 				E1AB0EA01C4FD4E0009E4182 /* penguin.png in Resources */,

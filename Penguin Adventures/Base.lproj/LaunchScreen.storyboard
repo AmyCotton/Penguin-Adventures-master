@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,12 +17,59 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Homepage" translatesAutoresizingMaskIntoConstraints="NO" id="j6c-wo-M91">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOADING..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qS9-I0-ERK">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="165" y="74" width="87" height="21"/>
+                                </variation>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="j6c-wo-M91" secondAttribute="bottom" id="CZO-Um-TXi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="j6c-wo-M91" secondAttribute="trailing" constant="-20" id="RYY-0G-wW1"/>
+                            <constraint firstItem="j6c-wo-M91" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="u5d-9L-zNY"/>
+                            <constraint firstItem="j6c-wo-M91" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="wgL-G1-8IF"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="j6c-wo-M91"/>
+                                <exclude reference="qS9-I0-ERK"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="RYY-0G-wW1"/>
+                                <exclude reference="u5d-9L-zNY"/>
+                                <exclude reference="wgL-G1-8IF"/>
+                                <exclude reference="CZO-Um-TXi"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="j6c-wo-M91"/>
+                                <include reference="qS9-I0-ERK"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="RYY-0G-wW1"/>
+                                <include reference="u5d-9L-zNY"/>
+                                <include reference="wgL-G1-8IF"/>
+                                <include reference="CZO-Um-TXi"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.5" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Homepage" width="1563" height="2638"/>
+    </resources>
 </document>
