@@ -155,7 +155,9 @@
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Q9i-Oo-P0c">
                                 <rect key="frame" x="20" y="7" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Facts"/>
+                                <state key="normal" title="Facts">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="070-WW-emd" kind="show" id="mDu-xB-QOk"/>
                                 </connections>
@@ -164,13 +166,17 @@
                         <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dzX-sk-xP3">
                             <rect key="frame" x="242" y="7" width="117" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal" title="Unlocked Stories"/>
+                            <state key="normal" title="Unlocked Stories">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
                         </button>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="rlm-Zn-Nym">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ghx-e9-B9e">
                                 <rect key="frame" x="534" y="7" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Help"/>
+                                <state key="normal" title="Help">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="helpButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ITH-3w-Ehf"/>
                                 </connections>
