@@ -102,7 +102,7 @@ extension ViewController: CLLocationManagerDelegate {
 		self.storyButtonFour.hidden = false
 		}
         
-        if self.storyButtonOne.hidden == false {
+        if self.storyButtonOne.hidden == false && self.storyButtonTwo.hidden == false && self.storyButtonThree.hidden == false && storyButtonFour.hidden == false {
         
             let refreshAlert = UIAlertController(title: "Congratulations!", message: "You have discovered all of the penguins!", preferredStyle: UIAlertControllerStyle.Alert)
             
