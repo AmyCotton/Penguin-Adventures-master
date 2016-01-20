@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="Xcode">
+
+    <wpt lat="50.715930" lon="-1.876767">
+         <name>bournemouthPierOne</name>
+         <time>2014-09-24T14:55:30Z</time>
+    </wpt>
+
+    <wpt lat="50.719568" lon="-1.843150">
+        <name>bournemouthPierTwo</name>
+        <time>2014-09-24T14:55:35Z</time>
+    </wpt>
+
+    <wpt lat="50.719798" lon="-1.879381">
+        <name>bournemouthPierThree</name>
+        <time>2014-09-24T14:55:40Z</time>
+    </wpt>
+	
+	<wpt lat="50.718186" lon="-1.876749">
+		<name>bournemouthPierFour</name>
+		<time>2014-09-24T14:55:45Z</time>
+	</wpt>
+
+</gpx>
+
