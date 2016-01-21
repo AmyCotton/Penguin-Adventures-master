@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -19,132 +18,95 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIZ-5z-kP6">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homepage-01-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="6Ww-p8-x2a">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="163" id="Xx0-qp-LHm"/>
-                                    <constraint firstAttribute="height" constant="214" id="ucb-Rq-Xrm"/>
+                                    <constraint firstAttribute="width" constant="400" id="b6E-C3-mBC"/>
+                                    <constraint firstAttribute="height" constant="600" id="yxy-hN-5td"/>
                                 </constraints>
-                                <state key="normal" image="penguin.png"/>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="Xx0-qp-LHm"/>
-                                        <exclude reference="ucb-Rq-Xrm"/>
+                                        <exclude reference="b6E-C3-mBC"/>
+                                        <exclude reference="yxy-hN-5td"/>
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=compact">
                                     <mask key="constraints">
-                                        <include reference="Xx0-qp-LHm"/>
-                                        <include reference="ucb-Rq-Xrm"/>
+                                        <include reference="b6E-C3-mBC"/>
+                                        <include reference="yxy-hN-5td"/>
                                     </mask>
                                 </variation>
-                            </button>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbr-nT-8CJ">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="214" id="gwA-bg-QtQ"/>
-                                    <constraint firstAttribute="width" constant="163" id="rIv-Aa-dqb"/>
-                                </constraints>
                                 <state key="normal" image="penguin.png"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="gwA-bg-QtQ"/>
-                                        <exclude reference="rIv-Aa-dqb"/>
-                                    </mask>
-                                </variation>
-                                <variation key="widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="gwA-bg-QtQ"/>
-                                        <include reference="rIv-Aa-dqb"/>
-                                    </mask>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="139" y="155" width="90" height="123"/>
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dfg-f6-91U">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="214" id="Jft-5n-tKQ"/>
-                                    <constraint firstAttribute="width" constant="163" id="icK-xv-VOo"/>
-                                </constraints>
-                                <state key="normal" image="penguin.png"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="Jft-5n-tKQ"/>
-                                        <exclude reference="icK-xv-VOo"/>
-                                    </mask>
-                                </variation>
-                                <variation key="widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="Jft-5n-tKQ"/>
-                                        <include reference="icK-xv-VOo"/>
-                                    </mask>
+                                <state key="normal" image="swimming penguin.png"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="56" y="528" width="110" height="102"/>
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKC-S0-a6P">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="214" id="hf1-c6-LfT"/>
-                                    <constraint firstAttribute="width" constant="163" id="khV-WX-8JF"/>
-                                </constraints>
-                                <state key="normal" image="penguin.png"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="hf1-c6-LfT"/>
-                                        <exclude reference="khV-WX-8JF"/>
-                                    </mask>
+                                <state key="normal" image="baby pernguin.png"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="237" y="291" width="124" height="158"/>
                                 </variation>
-                                <variation key="widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="hf1-c6-LfT"/>
-                                        <include reference="khV-WX-8JF"/>
-                                    </mask>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIZ-5z-kP6">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="penguin fishing.png"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="314" width="156" height="186"/>
                                 </variation>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Dfg-f6-91U" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="4hW-KT-ymq"/>
-                            <constraint firstItem="IIZ-5z-kP6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="6xc-w3-9TR"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zKC-S0-a6P" secondAttribute="bottom" id="Qtm-pr-UU5"/>
-                            <constraint firstItem="tbr-nT-8CJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="bfs-69-wvh"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="tbr-nT-8CJ" secondAttribute="trailing" constant="-20" id="ho8-Kq-Mhw"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Dfg-f6-91U" secondAttribute="bottom" id="pbR-59-f1J"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="zKC-S0-a6P" secondAttribute="trailing" constant="-20" id="wA5-Yh-iBW"/>
-                            <constraint firstItem="IIZ-5z-kP6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="zdT-YX-UWj"/>
+                            <constraint firstItem="6Ww-p8-x2a" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottomMargin" id="7Zp-86-JTJ"/>
+                            <constraint firstItem="6Ww-p8-x2a" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="9t6-9B-Ycu"/>
+                            <constraint firstItem="6Ww-p8-x2a" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="GAs-9C-Mn1"/>
+                            <constraint firstItem="6Ww-p8-x2a" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottomMargin" id="LXE-8S-mMk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6Ww-p8-x2a" secondAttribute="trailing" constant="-20" id="MJc-RS-XT8"/>
+                            <constraint firstItem="6Ww-p8-x2a" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="szu-9Y-dMY"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="IIZ-5z-kP6"/>
+                                <exclude reference="6Ww-p8-x2a"/>
                                 <exclude reference="tbr-nT-8CJ"/>
                                 <exclude reference="Dfg-f6-91U"/>
                                 <exclude reference="zKC-S0-a6P"/>
+                                <exclude reference="IIZ-5z-kP6"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="4hW-KT-ymq"/>
-                                <exclude reference="6xc-w3-9TR"/>
-                                <exclude reference="zdT-YX-UWj"/>
-                                <exclude reference="bfs-69-wvh"/>
-                                <exclude reference="ho8-Kq-Mhw"/>
-                                <exclude reference="wA5-Yh-iBW"/>
-                                <exclude reference="Qtm-pr-UU5"/>
-                                <exclude reference="pbR-59-f1J"/>
+                                <exclude reference="7Zp-86-JTJ"/>
+                                <exclude reference="9t6-9B-Ycu"/>
+                                <exclude reference="GAs-9C-Mn1"/>
+                                <exclude reference="LXE-8S-mMk"/>
+                                <exclude reference="MJc-RS-XT8"/>
+                                <exclude reference="szu-9Y-dMY"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
-                                <include reference="IIZ-5z-kP6"/>
+                                <include reference="6Ww-p8-x2a"/>
                                 <include reference="tbr-nT-8CJ"/>
                                 <include reference="Dfg-f6-91U"/>
                                 <include reference="zKC-S0-a6P"/>
+                                <include reference="IIZ-5z-kP6"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="4hW-KT-ymq"/>
-                                <include reference="6xc-w3-9TR"/>
-                                <include reference="zdT-YX-UWj"/>
-                                <include reference="bfs-69-wvh"/>
-                                <include reference="ho8-Kq-Mhw"/>
-                                <include reference="wA5-Yh-iBW"/>
-                                <include reference="Qtm-pr-UU5"/>
-                                <include reference="pbR-59-f1J"/>
+                                <include reference="7Zp-86-JTJ"/>
+                                <include reference="9t6-9B-Ycu"/>
+                                <include reference="GAs-9C-Mn1"/>
+                                <include reference="LXE-8S-mMk"/>
+                                <include reference="MJc-RS-XT8"/>
+                                <include reference="szu-9Y-dMY"/>
                             </mask>
                         </variation>
                     </view>
@@ -156,26 +118,19 @@
                                 <rect key="frame" x="20" y="7" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Facts">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="070-WW-emd" kind="show" id="mDu-xB-QOk"/>
                                 </connections>
                             </button>
                         </barButtonItem>
-                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dzX-sk-xP3">
-                            <rect key="frame" x="242" y="7" width="117" height="30"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal" title="Unlocked Stories">
-                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            </state>
-                        </button>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="rlm-Zn-Nym">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ghx-e9-B9e">
                                 <rect key="frame" x="534" y="7" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Help">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="helpButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ITH-3w-Ehf"/>
@@ -363,6 +318,12 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hG0-7G-iJW">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="0.0"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <offsetWrapper key="textShadowOffset" horizontal="0.0" vertical="0.0"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -375,6 +336,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="baby pernguin.png" width="297" height="377"/>
+        <image name="homepage-01-01.png" width="1563" height="2779"/>
+        <image name="penguin fishing.png" width="1440" height="1777"/>
         <image name="penguin.png" width="265" height="347"/>
+        <image name="swimming penguin.png" width="323" height="303"/>
     </resources>
 </document>

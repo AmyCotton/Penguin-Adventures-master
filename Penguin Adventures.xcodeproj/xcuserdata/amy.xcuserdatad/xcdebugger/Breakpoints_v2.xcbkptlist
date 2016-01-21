@@ -2,4 +2,67 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Penguin Adventures/AppDelegate.swift"
+            timestampString = "475033353.188127"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Penguin_Adventures.AppDelegate.__deallocating_deinit"
+                  moduleName = "Penguin Adventures"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amy/Documents/UNIVERSITY/Year%202/Working%20app/Penguin-Adventures-master/Penguin%20Adventures/AppDelegate.swift"
+                  timestampString = "475033631.866339"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Penguin_Adventures.AppDelegate.init (Penguin_Adventures.AppDelegate.Type)() -&gt; Penguin_Adventures.AppDelegate"
+                  moduleName = "Penguin Adventures"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amy/Documents/UNIVERSITY/Year%202/Working%20app/Penguin-Adventures-master/Penguin%20Adventures/AppDelegate.swift"
+                  timestampString = "475033631.866614"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Penguin Adventures"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amy/Documents/UNIVERSITY/Year%202/Working%20app/Penguin-Adventures-master/Penguin%20Adventures/AppDelegate.swift"
+                  timestampString = "475033631.866818"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

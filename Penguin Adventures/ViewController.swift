@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 		
 		self.storyButtonOne.hidden = true
 		self.storyButtonTwo.hidden = true
