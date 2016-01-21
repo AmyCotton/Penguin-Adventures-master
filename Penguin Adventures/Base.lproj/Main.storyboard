@@ -43,6 +43,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="139" y="155" width="90" height="123"/>
                                 </variation>
+                                <connections>
+                                    <segue destination="KSU-Ef-uqV" kind="show" id="Y0Q-2e-Kn6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dfg-f6-91U">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -50,6 +53,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="56" y="528" width="110" height="102"/>
                                 </variation>
+                                <connections>
+                                    <segue destination="3WD-Ls-nIk" kind="show" id="NwC-k8-rZa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKC-S0-a6P">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -57,6 +63,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="237" y="291" width="124" height="158"/>
                                 </variation>
+                                <connections>
+                                    <segue destination="vty-yK-yUg" kind="show" id="yU1-8Y-XbP"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIZ-5z-kP6">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -64,6 +73,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="20" y="314" width="156" height="186"/>
                                 </variation>
+                                <connections>
+                                    <segue destination="OC3-nH-DrR" kind="show" id="coe-LQ-Mg4"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -150,126 +162,159 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="990" y="281"/>
+            <point key="canvasLocation" x="1128" y="309"/>
         </scene>
-        <!--Second View Controller-->
-        <scene sceneID="kfr-TU-u2o">
+        <!--View Controller-->
+        <scene sceneID="A4t-a9-1EQ">
             <objects>
-                <viewController modalTransitionStyle="partialCurl" id="3ZI-Db-Xjt" customClass="SecondViewController" customModule="Penguin_Adventures" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="KSU-Ef-uqV" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="luP-HS-gZN"/>
-                        <viewControllerLayoutGuide type="bottom" id="9Nq-Em-2uo"/>
+                        <viewControllerLayoutGuide type="top" id="eWe-9x-7po"/>
+                        <viewControllerLayoutGuide type="bottom" id="adD-en-z4D"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="iaz-dc-mRS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" contentMode="scaleToFill" id="zV5-wX-GpH">
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To be able to read the story, you need to be able to find the penguins hidden around the Oceanarium." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sWG-9A-VkD">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Penguin with scarf" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LHJ-v8-xPn">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="47" y="218" width="307" height="102"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Once you have found one a notficiation will appear on the screen and you can read the penguin's story" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CuA-Ue-cw3">
-                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="46" y="299" width="308" height="117"/>
+                                    <rect key="frame" x="129" y="94" width="142" height="21"/>
                                 </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="sWG-9A-VkD"/>
-                                <exclude reference="CuA-Ue-cw3"/>
+                                <exclude reference="LHJ-v8-xPn"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
-                                <include reference="sWG-9A-VkD"/>
-                                <include reference="CuA-Ue-cw3"/>
+                                <include reference="LHJ-v8-xPn"/>
                             </mask>
                         </variation>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wH3-We-QfR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bac-Hz-Ha0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1792.5" y="160"/>
+            <point key="canvasLocation" x="1974" y="281"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="xcG-qu-jrW">
+        <scene sceneID="oSg-Q1-HjX">
             <objects>
-                <viewController id="rY9-1j-PyD" sceneMemberID="viewController">
+                <viewController id="3WD-Ls-nIk" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Rfl-pF-RVt"/>
-                        <viewControllerLayoutGuide type="bottom" id="TLt-df-yhv"/>
+                        <viewControllerLayoutGuide type="top" id="HBJ-Fj-MdO"/>
+                        <viewControllerLayoutGuide type="bottom" id="2qU-ak-FrJ"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="YQ8-bZ-H2u">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" contentMode="scaleToFill" id="sJq-5c-fYL">
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Penguin 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KW5-uZ-mag">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swimming penguin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PpM-2u-NUn">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="0.0" y="100" width="400" height="21"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="127" y="116" width="146" height="21"/>
                                 </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="KW5-uZ-mag" firstAttribute="centerX" secondItem="YQ8-bZ-H2u" secondAttribute="centerX" id="ORf-h5-2pE"/>
-                            <constraint firstItem="KW5-uZ-mag" firstAttribute="centerX" secondItem="YQ8-bZ-H2u" secondAttribute="centerX" id="Ohh-Sf-ZHl"/>
-                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="KW5-uZ-mag"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="ORf-h5-2pE"/>
-                                <exclude reference="Ohh-Sf-ZHl"/>
+                                <exclude reference="PpM-2u-NUn"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
-                                <include reference="KW5-uZ-mag"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="ORf-h5-2pE"/>
-                                <include reference="Ohh-Sf-ZHl"/>
+                                <include reference="PpM-2u-NUn"/>
                             </mask>
                         </variation>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GtM-O0-ius" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dFP-z9-tt6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2577" y="851"/>
+            <point key="canvasLocation" x="1188" y="1041"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="q0C-VS-kSv">
+        <scene sceneID="DAo-72-Hw7">
             <objects>
-                <viewController id="n6D-7L-gHm" sceneMemberID="viewController">
+                <viewController id="OC3-nH-DrR" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="zgx-gP-FpV"/>
-                        <viewControllerLayoutGuide type="bottom" id="h7g-DT-Asr"/>
+                        <viewControllerLayoutGuide type="top" id="hoZ-KL-DIW"/>
+                        <viewControllerLayoutGuide type="bottom" id="Esp-Eq-R0p"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="9r8-w8-8lj">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" contentMode="scaleToFill" id="eIa-nx-Ei6">
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fishing penguin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AWe-Qf-VLN">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="140" y="176" width="121" height="21"/>
+                                </variation>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="AWe-Qf-VLN"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="AWe-Qf-VLN"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qi0-g2-Pkb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6bd-4r-1CP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3297" y="843"/>
+            <point key="canvasLocation" x="2013" y="1131"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ynr-Yl-aqT">
+            <objects>
+                <viewController id="vty-yK-yUg" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vjC-ja-fAY"/>
+                        <viewControllerLayoutGuide type="bottom" id="7hr-HP-PkL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RA6-92-b2P">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Penguin dad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r9n-rd-2uT">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="152" y="170" width="96" height="21"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="r9n-rd-2uT"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="r9n-rd-2uT"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Osg-bJ-1fV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2631" y="681"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fI2-A3-V34">
