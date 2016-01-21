@@ -14,6 +14,10 @@
 		E1AB0EB51C505EC7009E4182 /* penguin fishing.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AB0EB01C505EC7009E4182 /* penguin fishing.png */; };
 		E1AB0EB61C505EC7009E4182 /* swimming penguin.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AB0EB11C505EC7009E4182 /* swimming penguin.png */; };
 		E1AB0EB81C506708009E4182 /* homepage-01-01.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AB0EB71C506708009E4182 /* homepage-01-01.png */; };
+		E1AB0EBA1C507E3B009E4182 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AB0EB91C507E3B009E4182 /* snow.png */; };
+		E1AB0EBC1C5086E4009E4182 /* icon-01.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AB0EBB1C5086E4009E4182 /* icon-01.png */; };
+		E1AB0EBE1C5088BD009E4182 /* icon1-01.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AB0EBD1C5088BD009E4182 /* icon1-01.png */; };
+		E1AB0EC01C508B76009E4182 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AB0EBF1C508B76009E4182 /* icon.png */; };
 		E1CB60431C148CB400AE270F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CB60421C148CB400AE270F /* AppDelegate.swift */; };
 		E1CB60451C148CB400AE270F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CB60441C148CB400AE270F /* ViewController.swift */; };
 		E1CB60481C148CB400AE270F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CB60461C148CB400AE270F /* Main.storyboard */; };
@@ -52,6 +56,10 @@
 		E1AB0EB01C505EC7009E4182 /* penguin fishing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "penguin fishing.png"; sourceTree = "<group>"; };
 		E1AB0EB11C505EC7009E4182 /* swimming penguin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "swimming penguin.png"; sourceTree = "<group>"; };
 		E1AB0EB71C506708009E4182 /* homepage-01-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homepage-01-01.png"; sourceTree = "<group>"; };
+		E1AB0EB91C507E3B009E4182 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		E1AB0EBB1C5086E4009E4182 /* icon-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-01.png"; sourceTree = "<group>"; };
+		E1AB0EBD1C5088BD009E4182 /* icon1-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon1-01.png"; sourceTree = "<group>"; };
+		E1AB0EBF1C508B76009E4182 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		E1CB603F1C148CB400AE270F /* Penguin Adventures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Penguin Adventures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CB60421C148CB400AE270F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1CB60441C148CB400AE270F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,7 +135,11 @@
 				E1CB60461C148CB400AE270F /* Main.storyboard */,
 				E1E41E181C28C415006B3883 /* FourthViewController.swift */,
 				E1CB60491C148CB400AE270F /* Assets.xcassets */,
+				E1AB0EB91C507E3B009E4182 /* snow.png */,
+				E1AB0EBF1C508B76009E4182 /* icon.png */,
+				E1AB0EBD1C5088BD009E4182 /* icon1-01.png */,
 				E1AB0EAD1C505EC7009E4182 /* baby pernguin.png */,
+				E1AB0EBB1C5086E4009E4182 /* icon-01.png */,
 				E1AB0EAE1C505EC7009E4182 /* penguin with scarf.png */,
 				E1AB0EB01C505EC7009E4182 /* penguin fishing.png */,
 				E1AB0EB11C505EC7009E4182 /* swimming penguin.png */,
@@ -267,12 +279,16 @@
 			files = (
 				E1CB604D1C148CB400AE270F /* LaunchScreen.storyboard in Resources */,
 				E1AB0EA21C5005BD009E4182 /* homepage.png in Resources */,
+				E1AB0EBA1C507E3B009E4182 /* snow.png in Resources */,
+				E1AB0EBE1C5088BD009E4182 /* icon1-01.png in Resources */,
 				E1CB604A1C148CB400AE270F /* Assets.xcassets in Resources */,
 				E1AB0EB31C505EC7009E4182 /* penguin with scarf.png in Resources */,
 				E1E41E1B1C28DA13006B3883 /* locations.gpx in Resources */,
+				E1AB0EBC1C5086E4009E4182 /* icon-01.png in Resources */,
 				E1AB0EB61C505EC7009E4182 /* swimming penguin.png in Resources */,
 				E1AB0EB21C505EC7009E4182 /* baby pernguin.png in Resources */,
 				E1AB0EA01C4FD4E0009E4182 /* penguin.png in Resources */,
+				E1AB0EC01C508B76009E4182 /* icon.png in Resources */,
 				E1CB60481C148CB400AE270F /* Main.storyboard in Resources */,
 				E1AB0EB81C506708009E4182 /* homepage-01-01.png in Resources */,
 				E1AB0EB51C505EC7009E4182 /* penguin fishing.png in Resources */,
