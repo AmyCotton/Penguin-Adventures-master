@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -183,6 +184,7 @@
                         <viewControllerLayoutGuide type="bottom" id="adD-en-z4D"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="zV5-wX-GpH">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOW DO PENGUINS KEEP WARM?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LHJ-v8-xPn">
@@ -237,6 +239,7 @@
                         <viewControllerLayoutGuide type="bottom" id="2qU-ak-FrJ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="sJq-5c-fYL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOW DO PENGUINS MOVE AROUND?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PpM-2u-NUn">
@@ -283,6 +286,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Esp-Eq-R0p"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="eIa-nx-Ei6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHAT DO PENGUINS EAT?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AWe-Qf-VLN">
@@ -338,6 +342,7 @@
                         <viewControllerLayoutGuide type="bottom" id="7hr-HP-PkL"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="RA6-92-b2P">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snow.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kmc-et-asj">
