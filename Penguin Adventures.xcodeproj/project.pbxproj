@@ -18,6 +18,17 @@
 		E1AB0EBC1C5086E4009E4182 /* icon-01.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AB0EBB1C5086E4009E4182 /* icon-01.png */; };
 		E1AB0EBE1C5088BD009E4182 /* icon1-01.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AB0EBD1C5088BD009E4182 /* icon1-01.png */; };
 		E1AB0EC01C508B76009E4182 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AB0EBF1C508B76009E4182 /* icon.png */; };
+		E1AFE5971C57A57500FC356C /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AFE5961C57A57500FC356C /* arrow.png */; };
+		E1AFE5991C57A7A300FC356C /* question mark.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AFE5981C57A7A300FC356C /* question mark.png */; };
+		E1AFE59B1C57ADF900FC356C /* scarfbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AFE59A1C57ADF900FC356C /* scarfbackground.png */; };
+		E1AFE59D1C57B4E700FC356C /* KEEPING WARM.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AFE59C1C57B4E700FC356C /* KEEPING WARM.png */; };
+		E1AFE59F1C57B70000FC356C /* KEEPING WARM fact.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AFE59E1C57B70000FC356C /* KEEPING WARM fact.png */; };
+		E1AFE5A11C57BA1600FC356C /* whats for dinner?.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AFE5A01C57BA1600FC356C /* whats for dinner?.png */; };
+		E1AFE5A31C57BDB900FC356C /* SWIMMING.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AFE5A21C57BDB800FC356C /* SWIMMING.png */; };
+		E1AFE5A51C57D64900FC356C /* baby penguin story.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AFE5A41C57D64900FC356C /* baby penguin story.png */; };
+		E1AFE5A71C57D7E100FC356C /* chick fact.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AFE5A61C57D7E100FC356C /* chick fact.png */; };
+		E1AFE5A91C57D8B100FC356C /* EAT FACT.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AFE5A81C57D8B100FC356C /* EAT FACT.png */; };
+		E1AFE5AB1C57D9A100FC356C /* swim fact.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AFE5AA1C57D9A100FC356C /* swim fact.png */; };
 		E1CB60431C148CB400AE270F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CB60421C148CB400AE270F /* AppDelegate.swift */; };
 		E1CB60451C148CB400AE270F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CB60441C148CB400AE270F /* ViewController.swift */; };
 		E1CB60481C148CB400AE270F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CB60461C148CB400AE270F /* Main.storyboard */; };
@@ -60,6 +71,17 @@
 		E1AB0EBB1C5086E4009E4182 /* icon-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-01.png"; sourceTree = "<group>"; };
 		E1AB0EBD1C5088BD009E4182 /* icon1-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon1-01.png"; sourceTree = "<group>"; };
 		E1AB0EBF1C508B76009E4182 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		E1AFE5961C57A57500FC356C /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		E1AFE5981C57A7A300FC356C /* question mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "question mark.png"; sourceTree = "<group>"; };
+		E1AFE59A1C57ADF900FC356C /* scarfbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scarfbackground.png; sourceTree = "<group>"; };
+		E1AFE59C1C57B4E700FC356C /* KEEPING WARM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KEEPING WARM.png"; sourceTree = "<group>"; };
+		E1AFE59E1C57B70000FC356C /* KEEPING WARM fact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KEEPING WARM fact.png"; sourceTree = "<group>"; };
+		E1AFE5A01C57BA1600FC356C /* whats for dinner?.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whats for dinner?.png"; sourceTree = "<group>"; };
+		E1AFE5A21C57BDB800FC356C /* SWIMMING.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SWIMMING.png; sourceTree = "<group>"; };
+		E1AFE5A41C57D64900FC356C /* baby penguin story.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baby penguin story.png"; sourceTree = "<group>"; };
+		E1AFE5A61C57D7E100FC356C /* chick fact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chick fact.png"; sourceTree = "<group>"; };
+		E1AFE5A81C57D8B100FC356C /* EAT FACT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EAT FACT.png"; sourceTree = "<group>"; };
+		E1AFE5AA1C57D9A100FC356C /* swim fact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "swim fact.png"; sourceTree = "<group>"; };
 		E1CB603F1C148CB400AE270F /* Penguin Adventures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Penguin Adventures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CB60421C148CB400AE270F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1CB60441C148CB400AE270F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -135,6 +157,17 @@
 				E1CB60461C148CB400AE270F /* Main.storyboard */,
 				E1E41E181C28C415006B3883 /* FourthViewController.swift */,
 				E1CB60491C148CB400AE270F /* Assets.xcassets */,
+				E1AFE5A61C57D7E100FC356C /* chick fact.png */,
+				E1AFE5A81C57D8B100FC356C /* EAT FACT.png */,
+				E1AFE5AA1C57D9A100FC356C /* swim fact.png */,
+				E1AFE59E1C57B70000FC356C /* KEEPING WARM fact.png */,
+				E1AFE5A21C57BDB800FC356C /* SWIMMING.png */,
+				E1AFE5A41C57D64900FC356C /* baby penguin story.png */,
+				E1AFE59C1C57B4E700FC356C /* KEEPING WARM.png */,
+				E1AFE5A01C57BA1600FC356C /* whats for dinner?.png */,
+				E1AFE59A1C57ADF900FC356C /* scarfbackground.png */,
+				E1AFE5981C57A7A300FC356C /* question mark.png */,
+				E1AFE5961C57A57500FC356C /* arrow.png */,
 				E1AB0EB91C507E3B009E4182 /* snow.png */,
 				E1AB0EBF1C508B76009E4182 /* icon.png */,
 				E1AB0EBD1C5088BD009E4182 /* icon1-01.png */,
@@ -277,18 +310,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1AFE5A11C57BA1600FC356C /* whats for dinner?.png in Resources */,
+				E1AFE5A71C57D7E100FC356C /* chick fact.png in Resources */,
+				E1AFE5A91C57D8B100FC356C /* EAT FACT.png in Resources */,
+				E1AFE59F1C57B70000FC356C /* KEEPING WARM fact.png in Resources */,
+				E1AFE59D1C57B4E700FC356C /* KEEPING WARM.png in Resources */,
 				E1CB604D1C148CB400AE270F /* LaunchScreen.storyboard in Resources */,
+				E1AFE5A31C57BDB900FC356C /* SWIMMING.png in Resources */,
 				E1AB0EA21C5005BD009E4182 /* homepage.png in Resources */,
 				E1AB0EBA1C507E3B009E4182 /* snow.png in Resources */,
 				E1AB0EBE1C5088BD009E4182 /* icon1-01.png in Resources */,
 				E1CB604A1C148CB400AE270F /* Assets.xcassets in Resources */,
 				E1AB0EB31C505EC7009E4182 /* penguin with scarf.png in Resources */,
 				E1E41E1B1C28DA13006B3883 /* locations.gpx in Resources */,
+				E1AFE5971C57A57500FC356C /* arrow.png in Resources */,
 				E1AB0EBC1C5086E4009E4182 /* icon-01.png in Resources */,
+				E1AFE59B1C57ADF900FC356C /* scarfbackground.png in Resources */,
 				E1AB0EB61C505EC7009E4182 /* swimming penguin.png in Resources */,
 				E1AB0EB21C505EC7009E4182 /* baby pernguin.png in Resources */,
+				E1AFE5A51C57D64900FC356C /* baby penguin story.png in Resources */,
 				E1AB0EA01C4FD4E0009E4182 /* penguin.png in Resources */,
+				E1AFE5991C57A7A300FC356C /* question mark.png in Resources */,
 				E1AB0EC01C508B76009E4182 /* icon.png in Resources */,
+				E1AFE5AB1C57D9A100FC356C /* swim fact.png in Resources */,
 				E1CB60481C148CB400AE270F /* Main.storyboard in Resources */,
 				E1AB0EB81C506708009E4182 /* homepage-01-01.png in Resources */,
 				E1AB0EB51C505EC7009E4182 /* penguin fishing.png in Resources */,
@@ -460,10 +504,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Penguin Adventures/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.Penguin-Adventures";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -471,10 +517,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Penguin Adventures/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.Penguin-Adventures";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

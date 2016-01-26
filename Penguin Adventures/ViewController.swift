@@ -53,7 +53,7 @@ extension ViewController: CLLocationManagerDelegate {
     @IBAction func helpButton(sender: AnyObject) {
         
         let alertController = UIAlertController(title: "Want to find a penguin?", message:
-            "To find a penguin, walk around the aquarium untill you get an alert!", preferredStyle: UIAlertControllerStyle.Alert)
+            "To find a penguin, walk around the Oceanarium untill you get an alert! This will unlock a penguin adventure which you can view by selecting the penguin.", preferredStyle: UIAlertControllerStyle.Alert)
         alertController.addAction(UIAlertAction(title: "Okay", style: UIAlertActionStyle.Default,handler: nil))
         
         self.presentViewController(alertController, animated: true, completion: nil)
@@ -121,7 +121,7 @@ extension ViewController: CLLocationManagerDelegate {
         
         }
 		
-		let refreshAlert = UIAlertController(title: "New Penguin Story Found!", message: "You have discovered a new penguin! To read the new story select the story button above.", preferredStyle: UIAlertControllerStyle.Alert)
+		let refreshAlert = UIAlertController(title: "New Penguin Story Found!", message: "You have discovered a new penguin! To read the new story select new penguin that has appeared!", preferredStyle: UIAlertControllerStyle.Alert)
         
         
         refreshAlert.addAction(UIAlertAction(title: "Close", style: .Default, handler: { (action: UIAlertAction!) in
