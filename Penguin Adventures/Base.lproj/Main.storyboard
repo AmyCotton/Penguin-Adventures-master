@@ -144,7 +144,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="21"/>
                             <state key="normal" title="PENGUIN ADVENTURES">
-                                <color key="titleColor" cyan="0.0" magenta="0.98150671648499155" yellow="0.94118803739547729" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <color key="titleColor" red="0.031372549020000001" green="0.71372549019999998" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
                         </button>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="rlm-Zn-Nym">
